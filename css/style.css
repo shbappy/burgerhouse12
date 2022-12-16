@@ -1,0 +1,397 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Bebas Neue', cursive !important;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Alfa Slab One', cursive !important;  
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    background-image: url("../images/background.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+}
+.menu{
+    width: 100%;
+    padding: 20px 0px ;
+}
+.menu .info{
+    width: 100%;
+    text-align: right;
+}
+.menu .info p img{
+    margin :0px 10px 0px 0px;
+}
+.menu .info p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #3d2514;
+    margin:0px 18px 0px 0px;
+}
+.menu .navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color: #3d2514;
+    font-weight: 600;
+    margin: 0px 0px 0px 30px;
+    transition: 1s;
+}
+.menu .navbar-nav .nav-item .nav-link:hover{
+    color: #bf2222;
+}
+.menu .navbar-nav .nav-item .nav-link:focus{
+    color: #bf2222;
+
+}
+.banner{
+    width: 100%;
+    padding: 40px 0px;
+}
+.banner h4{
+    font-family: 'Bebas Neue', cursive !important;
+    margin: 70px 0px 20px;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #3d2514
+}
+
+.banner h4 span{
+    width: ;
+    padding: 10px;
+    border:2px dashed #3d2514;
+}
+.banner h1{
+    margin: 30px 0px 20px;
+    font-size: 105px;
+    line-height: 115px;
+    font-weight: 700;
+    text-shadow: 1px 4px 10px #ccc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514
+}
+.banner h3{
+    margin: 30px 0px 20px;
+    font-size: 55px;
+    line-height: 65px;
+    font-weight: 700;
+    text-shadow: 1px 4px 10px #ccc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514
+}
+.popular{
+    width: 100%;
+    padding: 80px 0px 45px;
+}
+.popular .card{
+    margin: 0px 0px 35px;
+    border: 1px solid #fff;
+    background: #fff;
+}
+.popular .card .card-img-overlay h5{
+    font-family: 'Bebas Neue', cursive !important;
+    margin: 10px 0px 0px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.popular .card .card-img-overlay h3{
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.choose{
+    width: 100%;
+    padding: 80px 0px;
+}
+.choose .title{
+    width: 100%;
+    padding:0px 0px 80px;
+    text-align:center;
+}
+.choose .title h4{
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px 0px 45px;
+}
+.choose .title h4 span{
+    padding: 10px;
+    background: #ffc045;
+}
+
+.choose .title h2{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.choose .titile p{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #3d2514;
+}
+.choose .inner-choose .btn-primary{
+    padding: 10px 45px;
+    border: 1px solid#fff;
+    margin: 10px 0px;
+    color: #fff;
+    transition: 1s;
+    background: #bf2222;
+}
+.choose .inner-choose .btn-primary:hover{
+    background: transparent;
+    color: #bf2222;
+}
+.choose .inner-choose .btn-primary:focus{
+    color: #3d2514;
+    background: #ffc045;
+}
+.slider-section{
+    width: 100%;
+    padding:80px 0px;
+}
+.slider-section .owl-carousel{
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 1px 4px 10px #ccc;
+}
+.slider-section .owl-carousel .item h4{
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin: 30px 0px 0px;
+
+}
+.slider-section .owl-carousel .item h2{
+    font-family: 'Alfa Slab One', cursive !important;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 0px 0px 25px 0px;
+}
+.slider-section .owl-carousel .item p{
+    font-family: 'Alfa Slab One', cursive !important;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    color: #3d3d3d;
+    letter-spacing: 1px;
+    margin: 0px 0px 25px;   
+}
+.slider-section .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    text-align: left;
+    bottom: 10%;
+    position: absolute;
+}
+.slider-section .owl-theme .owl-dots .owl-dot.active span{
+    background: #ffc045;
+}
+.contact{
+    width: 100%;
+    padding:20px 0px 140px 0px;
+    background: url("../images/contactbg.png") center top no-repeat;
+    background-size: cover;
+}
+.contact .title{
+    width: 100%;
+    padding: 0px 0px 80px;
+    text-align: center;
+}
+.contact .title h4{
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    margin: 30px 0px 0px;
+}
+.contact .title h2{
+    font-family: 'Alfa Slab One', cursive !important;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3d2514;
+    margin: 0px 0px 25px 0px;
+}
+.contact .form-control{
+    background: transparent;
+    border: 1px solidrgb(214, 206, 206);
+    padding: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #3d2514;
+}
+.contact .btn-primary{
+    display: block;
+    padding: 13px 39px;
+    background: #bf2222;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ccc;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #bf2222;
+}
+.contact .btn-primary:hover{
+    background: transparent;
+    color: #bf2222;
+}
+.contact .btn-primary:focus{
+    color: #3d2514;
+    background: #ffc045;
+}
+.footer{
+    margin-top: 3px;
+    width: 100%;
+}
+.footer .main-footer{
+    width: 100%;
+    padding: 40px 0px 20px 0px;
+    background: url("../images/footerbg.png") center top no-repeat;
+    background-size: cover;
+}
+.footer .main-footer .footer-logo{
+    margin: 0px 0px 40px;
+}
+.footer .main-footer .footer-logo img{
+    width: 400px;
+    height: 85px;
+}
+.footer .main-footer p{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0px 20px 25px 10px; 
+}
+.main-footer .info{
+    width: 100%;
+    margin-left: 250px;
+}
+.main-footer .info  p{
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0px 0px 25px;
+
+} 
+.main-footer .info p img{
+    margin: 0px 15px 0px 0px;
+
+}
+.main-footer .copywright{
+    width: 100%;
+}
+.main-footer .copywright p{
+    font-family: 'Bebas Neue', cursive !important;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 165px 0px 0px 20px;
+}
+.main-footer .copywright p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    list-style: 26px;
+    font-weight: 500;
+}
+.main-footer .copywright p a:hover{
+    color:#bf2222;
+}
+.main-footer .copywright p a:focus{
+    color: #ffc045;
+}
+.main-footer .social-icons{
+    width: 100%;
+    margin-left: 420px;
+}
+.main-footer .social-icons li{
+    list-style: none;
+    display:inline-block;
+    margin-top: 160px;
+    margin-left: 8px;
+    font-size: 30px;
+    line-height: 20px;
+
+} 
+.main-footer .social-icons li a{
+    display: block;
+    color: rgb(28, 20, 178);
+    background: rgb(201, 201, 194);
+    border-radius: 30%;
+    border: 1px solid rgb(218, 218, 232);
+    transition: 1s;
+}
+.main-footer .social-icons li a:hover{
+    background: #ffc045;
+    color: #bf2222;
+    border: 1px solid#ffc045;
+}
+
+
+
+
+
+
+
+
